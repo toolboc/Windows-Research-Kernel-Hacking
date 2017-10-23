@@ -26,10 +26,12 @@ Per it's intent, [the WRK has been used in a variety of institutional course](ht
 - Visual Studio 2017
 - [Windows Server 2003 Evaluation Edition](https://www.microsoft.com/en-us/download/details.aspx?id=19727)
 - [Windows Research Kernel](http://gate.upm.ro/os/LABs/Windows_OS_Internals_Curriculum_Resource_Kit-ACADEMIC/WindowsResearchKernel-WRK/)
+- [msvcp71.dll](https://www.dll-files.com/msvcp71.dll.html)
+- [msvcr71.dll](https://www.dll-files.com/msvcr71.dll.html)
 
 **Copy required dlls**
 
-**Copy the included SysWow64 folder which includes msvcp71.dll & msvcr71.dll to C:\Windows on the host machine
+*Copy msvcp71.dll & msvcr71.dll to C:\Windows\SysWow64 on the host machine.  These libraries are required to successfully compile the Windows Research Kernel on Windows 10.  
 
 **WARNING : If you do not copy the folder above, compilation will appear successful but will inappropriately link.  This will result in issues later on when we load into Server 2003**
 

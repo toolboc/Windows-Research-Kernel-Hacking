@@ -16,7 +16,7 @@ Way back in the 2000's Microsoft released source code for something known as the
 
 "Use of the Windows Research Kernel requires academic affiliation with an accredited institution of higher education and direct involvement in teaching and/or research"
 
-Per it's intent, [the WRK has been used in a variety of institutional course](https://www.microsoft.com/resources/sharedsource/windowsacademic/facultyexperiences/hpi.mspx)s focused on Operating System research, design, and development.   As a result, there exists materials (ableit dated), that can provide us with a mechanism to glean knowledge of Operating Systems in general.  Even more exciting is that this source code has probably seen very few eyes when compared to other kernel sources. You are truly in for a unique and intimate experience with the Windows Research Kernel.
+Per it's intent, [the WRK has been used in a variety of institutional course](https://www.microsoft.com/resources/sharedsource/windowsacademic/facultyexperiences/hpi.mspx?WT.mc_id=iot-0000-pdecarlo)s focused on Operating System research, design, and development.   As a result, there exists materials (ableit dated), that can provide us with a mechanism to glean knowledge of Operating Systems in general.  Even more exciting is that this source code has probably seen very few eyes when compared to other kernel sources. You are truly in for a unique and intimate experience with the Windows Research Kernel.
 
 ## Compiling WRK on Windows 10
 
@@ -24,7 +24,7 @@ Per it's intent, [the WRK has been used in a variety of institutional course](ht
 
 - Windows 10
 - Visual Studio 2017
-- [Windows Server 2003 Evaluation Edition](https://www.microsoft.com/en-us/download/details.aspx?id=19727)
+- [Windows Server 2003 Evaluation Edition](https://www.microsoft.com/download/details.aspx?id=19727&WT.mc_id=iot-0000-pdecarlo)
 - [Windows Research Kernel](http://gate.upm.ro/os/LABs/Windows_OS_Internals_Curriculum_Resource_Kit-ACADEMIC/WindowsResearchKernel-WRK/)
 - [msvcp71.dll](https://www.dll-files.com/msvcp71.dll.html)
 - [msvcr71.dll](https://www.dll-files.com/msvcr71.dll.html)
@@ -57,7 +57,7 @@ You _may_ be prompted to install missing features, if so, you should probably in
 
 ![FeaturesPrompt](/images/FeaturesPrompt.png)
 
-If you receive the following message, click the link area to install the tools for [Windows desktop development with C++ in Visual Studio](https://blogs.msdn.microsoft.com/vcblog/2017/04/17/windows-desktop-development-with-c-in-visual-studio/)
+If you receive the following message, click the link area to install the tools for [Windows desktop development with C++ in Visual Studio](https://blogs.msdn.microsoft.com/vcblog/2017/04/17/windows-desktop-development-with-c-in-visual-studio/?WT.mc_id=iot-0000-pdecarlo)
 
 ![MigratePrompt](/images/MigratePrompt.png)
 
@@ -129,7 +129,7 @@ Next, go ahead a recompile the WRK using the x86 configuration
 
 Prerequisites:
 
-  [Enable Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
+  [Enable Hyper-V](https://docs.microsoft.com/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v?WT.mc_id=iot-0000-pdecarlo)
 
 Open Hyper-V Manager and create a new Virtual Machine
 
@@ -260,4 +260,4 @@ Notice that your customized syscall is printed to the debugger each time it is c
 
 1. Modify and track calls to a different syscall within the WRK
 2. Create your own syscall – see: [https://www.dcl.hpi.uni-potsdam.de/research/WRK/2009/03/implementation-of-a-new-system-service-call-2009-update/](https://www.dcl.hpi.uni-potsdam.de/research/WRK/2009/03/implementation-of-a-new-system-service-call-2009-update/)
-3. Demonstrate porting a Linux syscall to an NT syscall a la the Windows Subsystem for Linux – see: [https://blogs.msdn.microsoft.com/wsl/2016/06/08/wsl-system-calls/](https://blogs.msdn.microsoft.com/wsl/2016/06/08/wsl-system-calls/)
+3. Demonstrate porting a Linux syscall to an NT syscall a la the Windows Subsystem for Linux – see: [https://blogs.msdn.microsoft.com/wsl/2016/06/08/wsl-system-calls/?WT.mc_id=iot-0000-pdecarlo](https://blogs.msdn.microsoft.com/wsl/2016/06/08/wsl-system-calls/?WT.mc_id=iot-0000-pdecarlo)
